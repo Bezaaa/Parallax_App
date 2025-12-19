@@ -52,8 +52,7 @@ const LandingPage = () => {
             }}
           />
 
-          {/* Noise */}
-          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
+  
           
         </motion.div>
       </div>
@@ -73,7 +72,7 @@ const LandingPage = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 1.5, ease: "easeOut" }}
-            className="flex flex-col items-center justify-center gap-10"
+          className="flex flex-col items-center justify-center gap-6 scale-75 md:scale-100" 
           >
             
          
