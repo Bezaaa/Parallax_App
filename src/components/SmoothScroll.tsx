@@ -1,13 +1,15 @@
-import { ReactNode, useEffect } from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
 
-export default function SmoothScroll({ children }: { children: ReactNode }) {
+export default function SmoothScroll({ children }: { children: any }) {
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      direction: 'vertical',
-      smooth: true,
+      orientation: 'vertical', 
+      gestureOrientation: 'vertical',
+      smoothWheel: true,       
     });
 
     function raf(time: number) {
