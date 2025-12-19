@@ -1,7 +1,7 @@
 # Front-End Trial Task - Bezawit Teshome Workie
 
 ## 🚀 Live Deployment
-**View the project here:** :
+**View the project here:** :https://parallax-demo-o4sw4eyqt-bezateshome1234gmailcoms-projects.vercel.app/
 
 ## 🛠 Tech Stack
 - **Framework:** React + Vite (TypeScript)
